@@ -1,0 +1,32 @@
+{
+  "My CP Template": {
+    "prefix": "cp",
+    "body": [
+      "#include <bits/stdc++.h>",
+      "using namespace std;",
+      "",
+      "#define int long long",
+      "#define fast_io                  \\",
+      "    ios::sync_with_stdio(false); \\",
+      "    cin.tie(nullptr);",
+      "",
+      "void query()",
+      "{",
+      "    $0",
+      "}",
+      "",
+      "signed main()",
+      "{",
+      "    fast_io;",
+      "    int t;",
+      "    cin >> t;",
+      "    while (t--)",
+      "    {",
+      "        query();",
+      "    }",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Custom template with int long long and fast_io"
+  }
+}
